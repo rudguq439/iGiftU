@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    
+    
+    <title>IGiftU 마이페이지</title>
+
+    <!-- 부트스트랩 -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    
+    <style>
+        body{
+            margin-top: 55px;
+            min-width: 320px;
+        }
+        
+        .effect img {
+          display: inline-block;
+          box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+          border-radius: 50%;
+          width: 90px;
+          height: 90px;
+        }
+        
+        .form-group {
+            margin-bottom: 30px;
+        }
+        
+        #idBox{
+            padding: 30px 0 0 0;
+            margin-bottom: 5px;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .small{
+            font-size: 11px;
+            color: darkgray;
+        }
+        
+        td > img {
+            width:100%;
+        }
+        
+        hr {
+            margin-bottom:12px;
+        }
+      </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-gift" aria-hidden="true">iGiftU</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav text-center">
+            <li class="active"><a href="#">기프트콘</a></li>
+            <li><a href="#about">기도편지</a></li>
+            <li><a href="#contact">마이페이지</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div id="idBox">
+      <div class="container form-group">
+        <div class="col-xs-4 col-sm-3 text-right">
+        <div class="effect" id="KakaoThumbnail"><img src="체리콕.jpg"></div>
+<!--        <label for="KakaoThumbnail">강준민</label>-->
+        </div> 
+          <div class="col-xs-8 col-sm-8">
+              <input type="text" class="form-control" id="name" placeholder="실명">
+              <br>
+              <input type="text" class="form-control" id="name" placeholder="휴대폰번호">
+          </div>
+      </div>
+    </div>
+    
+    <div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#Send" aria-controls="Send" role="tab" data-toggle="tab">Send</a></li>
+    <li role="presentation"><a href="#receive" aria-controls="receive" role="tab" data-toggle="tab">Receive</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Send">
+        <div class="container">
+        <table class="table">
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="페퍼민트.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">보낸날짜</p>
+                    <hr>
+                    받은사람 이름
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+        
+    </div>
+    <div role="tabpanel" class="tab-pane" id="receive">
+        
+        <div class="container">
+        <table class="table">
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+            <tr>
+                <td class="col-xs-4"><img src="체리콕.jpg" alt="샘플이미지"></td>
+                <td id="ItemPrice col-xs-8" class="text-right">
+                    <h4><strong>상품 이름</strong></h4>
+                    <p class="small">받은날짜</p>
+                    <hr>
+                    보낸사람 이름
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+        
+        
+    </div>
+  </div>
+
+</div>
+    
+    
+    
+
+    <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
